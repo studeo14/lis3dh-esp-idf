@@ -47,12 +47,4 @@
 #ifndef __LIS3DH_PLATFORM_H__
 #define __LIS3DH_PLATFORM_H__
 
-#ifdef ESP_PLATFORM  // ESP32 (ESP-IDF)
-
-// platform specific includes
-#include "esp8266_wrapper.h"
-#include <errno.h>
-
-#endif // ESP_PLATFORM
-
 #endif // __LIS3DH_PLATFORM_H__
